@@ -24,3 +24,74 @@ footer {
     padding: 10px;
     text-align: center;
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e01e1e;
+}
+header {
+    background-color: #007bff;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    color: #621a1a;
+}
+nav {
+    background-color: #1fc941;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #f16464;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+main h2 {
+    color: #007bff;
+}
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #0e0e0e;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+footer {
+    background-color: #007bff;
+    padding: 10px;
+    text-align: center;
+    color: #f01313;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes slideIn {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(0); }
+}
+
+header h1 {
+    animation: fadeIn 1s ease;
+}
+nav {
+    animation: slideIn 1s ease;
+}

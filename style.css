@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
 }
 header {
-    background-color: #f8f9fa;
+    background-color: #297dd2;
     padding: 20px;
     text-align: center;
 }
 nav {
-    background-color: #e9ecef;
+    background-color: #369457;
     padding: 10px;
     text-align: center;
 }
@@ -20,7 +20,7 @@ main {
     padding: 20px;
 }
 footer {
-    background-color: #f8f9fa;
+    background-color: #b7961f;
     padding: 10px;
     text-align: center;
 }
